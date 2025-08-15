@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://chemistry-ai.vercel.app';
+  const baseUrl = 'https://chemistryai.online';
   
   const staticPages = [
     {

@@ -37,11 +37,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://chemistry-ai.vercel.app"),
+  metadataBase: new URL("https://chemistryai.online"),
   openGraph: {
     title: "Chemistry AI - Intelligent Chemistry Assistant",
     description: "Learn chemistry with our AI-powered assistant. Interactive tools, calculators, and comprehensive knowledge base.",
-    url: "https://chemistry-ai.vercel.app",
+    url: "https://chemistryai.online",
     siteName: "Chemistry AI",
     images: [
       {
@@ -102,7 +102,7 @@ export const metadata: Metadata = {
   },
   applicationName: "Chemistry AI",
   alternates: {
-    canonical: "https://chemistry-ai.vercel.app",
+    canonical: "https://chemistryai.online",
   },
 };
 
@@ -134,8 +134,8 @@ export default function RootLayout({
               "@type": "EducationalOrganization",
               name: "Chemistry AI",
               description: "Interactive chemistry learning platform with AI-powered assistance",
-              url: "https://chemistry-ai.vercel.app",
-              logo: "https://chemistry-ai.vercel.app/logo.png",
+              url: "https://chemistryai.online",
+              logo: "https://chemistryai.online/logo.png",
               foundingDate: "2024",
               educationalCredentialAwarded: "Chemistry Knowledge",
               hasOfferCatalog: {
