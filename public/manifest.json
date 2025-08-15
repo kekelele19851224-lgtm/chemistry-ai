@@ -1,0 +1,98 @@
+{
+  "name": "Chemistry AI - Intelligent Chemistry Assistant",
+  "short_name": "Chemistry AI",
+  "description": "Learn chemistry with our AI-powered assistant. Interactive periodic table, molecular calculators, and 3D molecule viewer.",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Periodic Table",
+      "short_name": "Periodic",
+      "description": "Interactive periodic table with element details",
+      "url": "/?tab=periodic",
+      "icons": [{ "src": "/icons/shortcut-periodic.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Calculators",
+      "short_name": "Calc",
+      "description": "Chemistry calculators and converters",
+      "url": "/?tab=calculators",
+      "icons": [{ "src": "/icons/shortcut-calculator.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "3D Molecules",
+      "short_name": "3D",
+      "description": "3D molecular structure viewer",
+      "url": "/?tab=molecules",
+      "icons": [{ "src": "/icons/shortcut-molecule.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["education", "utilities", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
