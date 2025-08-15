@@ -1,14 +1,7 @@
 # Wrangler configuration for Cloudflare Pages deployment
 name = "chemistry-ai"
 compatibility_date = "2024-01-15"
-
-[env.production]
-name = "chemistry-ai"
-
-# Static asset configuration
-[build]
-command = "npm run build"
-destination = "out"
+pages_build_output_dir = "out"
 
 # Custom domain configuration will be set in Cloudflare dashboard
 # Domain: chemistryai.online
