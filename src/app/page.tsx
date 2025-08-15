@@ -6,7 +6,7 @@ import ChatInterface from '@/components/chat-interface';
 import PeriodicTable from '@/components/periodic-table';
 import ChemistryCalculators from '@/components/chemistry-calculators';
 import MoleculeViewer from '@/components/molecule-viewer';
-import { searchQuestions } from '@/data/chemistry-qa';
+// import { searchQuestions } from '@/data/chemistry-qa';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'chat' | 'periodic' | 'calculators' | 'molecules'>('chat');
